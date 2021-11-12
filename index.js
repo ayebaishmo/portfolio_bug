@@ -282,7 +282,7 @@ for (let k = 0; k < project.length; k += 1) {
   });
 }
 
-const form = document.querySelector('form');
+const forme = document.querySelector('form');
 const mail = document.getElementById('useremail');
 const small = document.createElement('small');
 const errorMessage = 'Please enter email address in lowercase only.';
@@ -327,7 +327,6 @@ function getData() {
     userName.value = savedData.name;
     userEmail.value = savedData.mail;
     userMsg.value = savedData.msg;
-  }
 }
 
 window.onload = getData;
